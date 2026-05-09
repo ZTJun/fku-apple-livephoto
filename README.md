@@ -14,7 +14,7 @@ A simple swift script aims to converting video and photo to Apple Live Photo
 ## English
 1. Download `fku-livephoto.swift` and save it to your desired folder.
 2. Open Terminal in that directory and enter the following command: `chmod +x ./fku-livephoto.swift`
-3. Run the script using your input files. Assuming `input.heic` and `input.mov` are your source files and `output` is your chosen filename's prefix, and `UUID` is the unique ID you assign to the Live Photo, usually in all-caps UUID4 format, execute: `./fucku-livepoto.swift input.heic output UUID`. This will generate two modified files: output.heic and output.mov.
+3. Run the script using your input files. Assuming `input.heic` and `input.mov` are your source files and `output` is your prefix of the chosen filename, and `UUID` is the unique ID you assign to the Live Photo, usually in all-caps UUID4 format, execute: `./fucku-livepoto.swift input.heic output UUID`. This will generate two modified files: output.heic and output.mov.
 4. Open the `Photos app` and press `Shift + Command + I` to open the import interface. Select both `output.heic` and `output.mov` to import them as a Live Photo.
 
 # 已知问题 / Known Issue
