@@ -8,7 +8,7 @@ import ImageIO
 let args = CommandLine.arguments
 guard args.count == 5 else {
     print("❌ 用法错误！")
-    print("示例: ./fku-livephoto.swift input.heic input.mov output_prefix 5B3C7B5D-9A1F-432A-8E4A-1B2C3D4E5F6A")
+    print("示例: ./fku-livephoto.swift input.heic input.mov output_prefix 5B3C7B5D-9A1F-432A-8E4A-114514191981")
     exit(1)
 }
 
@@ -177,7 +177,7 @@ Task {
     if processImage() {
         let success = await processVideo()
         if success {
-            print("大功告成！Live Photo 已生成: \(imageOutputURL.lastPathComponent) & \(videoOutputURL.lastPathComponent)")
+            print("Live Photo 已生成: \(imageOutputURL.lastPathComponent) & \(videoOutputURL.lastPathComponent)")
             print("选择两个文件，一并隔空投送 (AirDrop) 至手机即可喵")
             exit(0)
         } else {
