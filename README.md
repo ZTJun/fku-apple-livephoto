@@ -16,4 +16,5 @@
 
 # 已知问题 / Known Issue
 **不可以保留相机制造厂独特的私有数据块和少量和原始 [EXIF] 数据块**，已经可能用特殊方法保留原始 Metadata，如有特别需求可以搭配 `ExifTool` 查漏补缺
+
 **Camera manufacturer-specific proprietary data blocks and certain original [EXIF] segments cannot be preserved.** While it is possible to retain original metadata through specialized methods, you can use `ExifTool` to supplement or fill in any missing information if you have specific requirements.
