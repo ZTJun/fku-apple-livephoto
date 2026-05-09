@@ -1,7 +1,10 @@
 # fku-apple-livephoto
-一个可以将视频和文件转换成 Apple Live Photo 的简单 Swift 脚本 / A simple swift script aims to converting video and photo to Apple Live Photo
+一个可以将视频和文件转换成 Apple Live Photo 的简单 Swift 脚本
+
+A simple swift script aims to converting video and photo to Apple Live Photo
 
 # 用法 / Uasge
+
 ## 中文
 1. 下载 `fku-livephoto.swift`，保存至指定的文件夹
 2. 在文件夹目录打开终端，输入 `chmod +x ./fku-livephoto.swift`
